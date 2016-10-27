@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "OpenURLwithFilter",
+    "version": "0.0.0",
+    "description": "Open filtered url",
+    "author": "kamichidu <c.kamunagi@gmail.com>",
+    "homepage_url": "https://github.com/kamichidu/chrome-extension-open-url-with-filter",
+    "permissions": ["contextMenus"],
+    "background": {
+        "scripts": ["handler.js"],
+        "persistent": false
+    }
+}
